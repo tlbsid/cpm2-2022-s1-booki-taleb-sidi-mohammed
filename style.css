@@ -41,3 +41,32 @@ nav {
 .link {
 	margin-top: 46px;
 }
+
+h1 {
+	font-size: 19px;
+}
+
+p {
+	font-size: 12px;
+}
+#research_input {
+	border: none;
+	height: 43px;
+	width: 120px;
+}
+
+#research {
+	display: flex;
+	margin-top: 15px;
+	height: 45px;
+}
+
+#research_button {
+	background-color: #0065FC;
+	color: white;
+	font-weight: bold;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	border: none;
+	width: 12%;
+}
