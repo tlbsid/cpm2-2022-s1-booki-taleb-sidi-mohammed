@@ -68,7 +68,7 @@ p {
 	border-top-right-radius: 16px;
 	border-bottom-right-radius: 16px;
 	border: none;
-	width: 12%;
+	width: 8%;
 }
 
 #research_button_mobile {
@@ -132,3 +132,164 @@ p {
 .search_filter div:hover {
 	background-color: #0065FC;
 }
+
+/** Section hébergement et populaire **/ 
+
+.section_content {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-between;
+	padding: 3.5px;
+}
+
+.title_section_h3 {
+	margin-left: 5%;
+	padding-top: 17px;
+}
+
+.section_1 {
+	width: 68% ;
+	height: 600px;
+	border-radius: 25px;
+}
+
+#section_1_hebergements {
+	width: 90%;
+	height: 85%;
+	margin-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space_between;
+}
+
+.section_1_part1 {
+	width: 68%;
+	height: 600px;
+	border-radius: 25px;
+	background: #f4f3f3;
+}
+
+.hebergements_section1 {
+	background-color: rgb(255, 255, 255);
+	padding: 3.6px;
+	height: 43%;
+	width: 30%;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px #0000;
+	display: inline;
+}
+
+.hebergements_section1 img {
+	width: 100%;
+	height: 64%;
+	object-fit: cover;
+	border-radius: 20px 20px 0 0;
+}
+
+#section_1_hebergements a {
+	display: contents;
+}
+
+.hebergements_section_1 p{
+	color: black;
+	font-size: 11px;
+}
+
+.hebergements_title_h3{
+	color: black;
+}
+
+.section1_text {
+	height: 49%;
+	padding-left: 13px;
+	margin-top: -14px;
+	color: black;
+}
+
+.section1_text h3{
+	font-size: 13px;
+}
+
+.star{
+	margin-top: 9px;
+	font-size: small;
+}
+
+.price {
+	font-weight: initial;
+}
+
+
+.star_blue {
+	color: #0065FC;
+}
+
+.star_grey {
+	color: rgb(192, 192, 192);
+}
+
+.section1_text p{
+	margin-left: 1px;
+}
+
+.afficher{
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	margin-left: 6%;
+	margin-top: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
