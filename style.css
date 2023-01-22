@@ -554,6 +554,32 @@ ul {
 		width: 100%;
 		margin-bottom: 50px;
 	}
+	.cards_description {
+		min-height: auto;
+	}
+	.choices {
+		flex-direction: column;
+		height: auto;
+	}
+	.column1 {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.column2 {
+		margin-bottom: 50px;
+	}
+	.img1, .img2, .img3, .img4 {
+		height: 200px;
+	}
+	.footer {
+		flex-direction: column;
+		align-items: flex-start;
+		height: auto;
+		padding-left: 20px;
+	}
+	.footer_columns {
+		margin-left: 0;
+	}
 }
 
 
