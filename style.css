@@ -532,6 +532,29 @@ ul {
 	}
 }
 
+@media screen and (max-width: 770px) {
+	.liens_header {
+		width: 90%;
+	}
+	.header {
+		margin-left: 20%;
+	}
+	.left_bloc {
+		height: auto;
+	}
+	.line1 {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.line2 {
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.cards {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+}
 
 
 
