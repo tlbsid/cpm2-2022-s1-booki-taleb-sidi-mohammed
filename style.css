@@ -13,7 +13,7 @@ p {
 	font-size: 15px;
 }
 
-/** Navigation **/
+/* Bloc Navigation */
 
 nav ul{
 	display: flex;
@@ -39,7 +39,7 @@ a:hover {
 	text-decoration: none;
 }
 
-/** Header **/
+/* Bloc Header */
 
 #header {
 	display: flex;
@@ -50,7 +50,7 @@ a:hover {
 	width: 50%;
 }
 
-/** Searchs **/
+/* Bloc Searchs */
 
 .bold_text, .sous_texte {
 	margin: 15px;
@@ -96,7 +96,7 @@ a:hover {
 	display: none;
 }
 
-/** Filtres **/
+/* Bloc Filtres */
 
 .filtres {
 	display: flex;
@@ -144,7 +144,7 @@ a:hover {
 	margin-right: 10px;
 }
 
-/** Infos **/
+/* Ligne Infos */
 
 .info {
 	display: flex;
@@ -168,7 +168,7 @@ a:hover {
 	padding-left: 8px;
 }
 
-/** Hébergements à Marseille **/
+/* Bloc Hébergements à Marseille */
 
 #hebergements {
 	background-color: #F2F2F2;
@@ -255,7 +255,7 @@ a:hover {
 	margin: 15px 0px 40px 0px;
 }
 
-/** Les plus Populaires **/
+/* Bloc Les plus Populaires */
 
 #left_bloc {
 	display: flex;
@@ -347,7 +347,7 @@ a:hover {
 	flex-direction: row;
 }
 
-/** Activités à Marseille **/
+/**  Bloc Activités à Marseille **/
 
 #activites {
 	padding: 0px 20px 25px 20px;
@@ -414,3 +414,45 @@ a:hover {
 	text-decoration: none;
 	color: black;
 }
+
+/* Bloc footer */
+
+.last_part {
+	width: 100%;
+	margin-top: 50px;
+	background-color: #F2F2F2;
+}
+
+.footer {
+	display: flex;
+	max-width: 100%;
+	margin: auto;
+	padding: 0px 25px;
+	box-sizing: border-box;
+}
+
+.footer_columns {
+	flex: auto;
+	padding: 10px 15px;
+}
+
+.footer_columns a {
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 45px;
+	color: grey;
+}
+
+/* Décoration partie Listes */ 
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 0;
+	text-decoration: none;
+	color: grey;
+}
+
+/* Partie Responsive */
+
+
