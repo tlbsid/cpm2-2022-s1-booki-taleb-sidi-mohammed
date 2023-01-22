@@ -454,5 +454,98 @@ ul {
 }
 
 /* Partie Responsive */
+@media screen and (max-width :992px) {
+	body {
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+		margin-top: 0px;
+	}
+
+	.cards_img {
+		width : 40%;
+		height: 154px;
+		object-fit: cover;
+		display: inline;
+		border-top-left-radius: 18px;
+		border-bottom-left-radius: 18px;
+	}
+
+	.section1_text p {
+		font-size: 11px;
+	}
+
+	.section1_text h3 {
+		font-size: 13px;
+	}
+
+	footer {
+		margin-top: 50 px;
+	}
+}
+
+/* Partie responsive */
+
+@media screen and (max-width: 1295px) {
+	.header {
+		margin-left: 35%;
+	}
+	.cards {
+		min-height: 150px;
+	}
+	.left_bloc {
+		min-height: auto;
+		padding: 20px;
+	}
+	.populars {
+		min-height: auto;
+		padding: 20px;
+	}
+	.popular_titles {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.filtres {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.filtres_text_icons {
+		margin-bottom: 20px;
+	}
+	#hebergements {
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+	.bloc_popular_cards {
+		flex: none;
+		width: 90%;
+		margin-left: 0;
+		padding: 5%;
+	}
+	.left_bloc {
+		flex: none;
+		width: 90%;
+		margin-right: 0;
+		margin-top: 50px;
+		padding: 5%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
