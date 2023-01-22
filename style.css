@@ -13,16 +13,7 @@ p {
 	font-size: 15px;
 }
 
-/** Navigation & Header **/
-
-#header {
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo {
-	width: 50%;
-}
+/** Navigation **/
 
 nav ul{
 	display: flex;
@@ -48,13 +39,24 @@ a:hover {
 	text-decoration: none;
 }
 
-/** Search **/
+/** Header **/
 
-.bold_texte, .soustitre {
+#header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 50%;
+}
+
+/** Searchs **/
+
+.bold_text, .sous_texte {
 	margin: 15px;
 }
 
-#map {
+#localisation {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -62,7 +64,7 @@ a:hover {
 	margin: 15px;
 }
 
-#map_icon {
+#icon_localisation {
 	display: flex;
 	background-color: #F2F2F2;
 	width: 40px;
@@ -80,7 +82,7 @@ a:hover {
 	width: 120px;
 }
 
-.search_button {
+.searchbutton {
 	background-color: #0065FC;
 	height: 38px;
 	color: #ffffff;
@@ -142,7 +144,7 @@ a:hover {
 	margin-right: 10px;
 }
 
-/** Information phrase **/
+/** Infos **/
 
 .info {
 	display: flex;
@@ -162,7 +164,7 @@ a:hover {
 	align-items: center;
 }
 
-.infos p {
+.info p {
 	padding-left: 8px;
 }
 
@@ -343,4 +345,72 @@ a:hover {
 	color: #F2F2F2;
 	align-items: baseline;
 	flex-direction: row;
+}
+
+/** Activités à Marseille **/
+
+#activites {
+	padding: 0px 20px 25px 20px;
+	margin-top: 40px;
+}
+
+.choices {
+	display: flex;
+	justify-content: space-between;
+	height: 550px;
+	font-size: smaller;
+}
+
+.activites_title {
+	padding-left: 25px;
+	padding-top: 15px;
+}
+
+.choices .column1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 20%;
+	border-radius: 20px;
+}
+
+.choices .column1 a {
+	height: 550px;
+	text-decoration: none;
+	color: black;
+}
+
+.choices article img {
+	object-fit: cover;
+	height: calc(90% - 50px);
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.choices .column1 article {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	height: 100%;
+}
+
+.choices article h3 {
+	margin-left: 15px;
+}
+
+.column2 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 350px;
+}
+
+.column2 article {
+	height: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 25px 25px 25px 25px;
+}
+
+.column2 a {
+	text-decoration: none;
+	color: black;
 }
