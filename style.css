@@ -148,7 +148,7 @@ p {
 	padding-top: 17px;
 }
 
-.section_1 {
+.section_1  {
 	width: 68% ;
 	height: 600px;
 	border-radius: 25px;
@@ -156,7 +156,6 @@ p {
 
 #section_1_hebergements {
 	width: 90%;
-	height: 85%;
 	margin-left: 5%;
 	display: flex;
 	flex-wrap: wrap;
@@ -174,7 +173,6 @@ p {
 	background-color: rgb(255, 255, 255);
 	padding: 3.6px;
 	height: 43%;
-	width: 30%;
 	border-radius: 20px;
 	box-shadow: 2px 2px 2px 2px #0000;
 	display: inline;
@@ -199,13 +197,14 @@ p {
 .hebergements_title_h3{
 	color: black;
 }
-
+/*
 .section1_text {
 	height: 49%;
 	padding-left: 13px;
 	margin-top: -14px;
 	color: black;
 }
+*/
 
 .section1_text h3{
 	font-size: 13px;
@@ -241,7 +240,15 @@ p {
 	margin-top: -12px;
 }
 
-
+.line1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+/* la deuxième carte hébergment */ 
 
 
 
